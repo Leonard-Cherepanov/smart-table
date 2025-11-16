@@ -20,7 +20,6 @@ export function initFiltering(elements) {
             if (action.dataset.field) {
                 state[action.dataset.field] = '';
             }
-            return query; // Возвращаем исходный query без изменений
         }
          
 
